@@ -28,7 +28,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(back.jpg); 
+    background-image: url(images/back.jpg); 
     background-position: center;
     background-size: cover;
     margin-bottom: 50px;
