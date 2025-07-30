@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Cờ Vua Hoàn Thiện</title>
+    <link rel="stylesheet" href="lib/chessboard-1.0.0.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chess.css"> 
+</head>
+<body>
+    <div id="game-container">
+        <h1>Game Cờ Vua Hoàn Thiện</h1>
+        <div id="board" style="width: 400px"></div> <div class="game-info-panel">
+            <p>Lượt đi: <span id="status">Đang tải...</span></p>
+            <button id="resetBtn">Chơi Lại</button>
+            <button id="undoBtn">Đi lại</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="lib/chessboard-1.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    
+    <script src="chess.js"></script>
+</body>
+</html>
